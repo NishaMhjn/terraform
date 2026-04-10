@@ -1,1 +1,16 @@
-docker save -o new.tar imgid
+docker save -o newname.tar imgid
+
+docker load -i newname.tar 
+
+docker inspect con-id
+
+docker ps 
+ 
+docker ps -a 
+
+docker exec -it con-id -- /bin/bash
+
+docker run con-name
+
+docker run -d -P con-name 
+
